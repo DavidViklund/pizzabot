@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(142, 138, 121);
+}
+.space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.space .ordercontainer {
+  flex-direction: column;
+  background-color: rgb(51, 47, 27);
+  text-align: center;
+  margin-top: 70px;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  color: white;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+#pizzaForm {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+  color: black;
+  height: 40 px;
+  width: 90 px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: black;
+  height: 40 px;
+  width: 90 px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#response {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+  color: red;
+  margin-top: 10px;
+}
